@@ -12,19 +12,17 @@ body{
 
 header h2{
     text-align: center;
-    font-size: 3vw;
+    font-size: 6vw;
     color: white;
 }
 #header{
     background-color: rgb(17, 143, 158);
-    padding: 40px;
+    padding: 1px;
     color: black;
     text-align: center;
-    font-size: 90px;
     font-weight: bold;
     top: 0;
     width: 100%;
-    transition: 0.5s;
 }
 nav{
     background-color: #333;
@@ -38,18 +36,42 @@ nav a{
     float: left;
     color: white;
 }
+ .links :hover{
+     color: rgb(214, 156, 32);     
+ }
+ .active {
+    color: rgb(214, 156, 32);
+    text-decoration: underline;
+}
  body main p{
+     margin: 40px;
+    font-size: 25px;
     top: 40vh;
     background-color: white;
     text-align: center;
 }
-img {
-    padding: 40px 20px;
-}
+
 footer{
     text-align: center;
+    
 }
 body nav #link1, #link2, #link3{
     margin-right: 160px;
     margin-left: 160px;
+}
+
+.icon-bar{
+    position: fixed;
+    top: 60%;
+    text-decoration: none;
+}
+
+.icon-bar a{
+    margin: 5px;
+    display: block;
+    text-align: center;
+}
+
+@media screen {
+    
 }
