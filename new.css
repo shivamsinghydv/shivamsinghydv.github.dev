@@ -25,7 +25,7 @@ header h2{
     width: 100%;
 }
 nav{
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0);
     /* grey color */
     overflow: hidden;
 }
@@ -37,10 +37,10 @@ nav a{
     color: white;
 }
  .links :hover{
-     color: rgb(214, 156, 32);     
+     color: #F2EA02;     
  }
  .active {
-    color: rgb(214, 156, 32);
+    color: #fdfdfd;
     text-decoration: underline;
 }
  body main p{
@@ -56,8 +56,7 @@ footer{
     
 }
 body nav #link1, #link2, #link3{
-    margin-right: 160px;
-    margin-left: 160px;
+    text-align: center;
 }
 
 .icon-bar{
@@ -71,7 +70,10 @@ body nav #link1, #link2, #link3{
     display: block;
     text-align: center;
 }
-
+#dp{
+    text-align: center;
+    margin-top: 6vh;
+}
 @media screen {
     
 }

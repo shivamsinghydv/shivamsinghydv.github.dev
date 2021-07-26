@@ -1,2 +1,1 @@
-console.log("Hello World")
-var name = 13
+alert("soo you finally here!")
