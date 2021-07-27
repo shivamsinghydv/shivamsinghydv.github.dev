@@ -14,6 +14,7 @@ header h2{
     text-align: center;
     font-size: 6vw;
     color: white;
+    display: block;
 }
 #header{
     background-color: rgb(17, 143, 158);
@@ -24,8 +25,11 @@ header h2{
     top: 0;
     width: 100%;
 }
-nav{
-    background-color: rgba(51, 51, 51, 0);
+#header img, h2{
+    display: block;
+}
+body nav{
+    background-color: rgba(194, 24, 24, 0);
     /* grey color */
     overflow: hidden;
 }
@@ -34,13 +38,13 @@ nav a{
     padding: 20px;
     text-align: center;
     float: left;
-    color: white;
+    color: rgb(0, 0, 0);
 }
  .links :hover{
-     color: #F2EA02;     
+     color: #0062ff;     
  }
  .active {
-    color: #fdfdfd;
+    color: #0062ff;
     text-decoration: underline;
 }
  body main p{
@@ -48,15 +52,13 @@ nav a{
     font-size: 25px;
     top: 40vh;
     background-color: white;
-    text-align: center;
+    color: gray;
+    text-align: center;  
 }
 
 footer{
     text-align: center;
     
-}
-body nav #link1, #link2, #link3{
-    text-align: center;
 }
 
 .icon-bar{
@@ -73,7 +75,4 @@ body nav #link1, #link2, #link3{
 #dp{
     text-align: center;
     margin-top: 6vh;
-}
-@media screen {
-    
 }
