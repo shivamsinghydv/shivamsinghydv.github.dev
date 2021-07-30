@@ -76,3 +76,9 @@ footer{
     text-align: center;
     margin-top: 6vh;
 }
+
+#dp{
+    width: max-content;
+    border: 10px solid whitesmoke;
+    margin-left: 47%;
+}
