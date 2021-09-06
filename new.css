@@ -82,3 +82,7 @@ footer{
     border: 10px solid whitesmoke;
     margin-left: 47%;
 }
+#email{
+    margin-left: 10%;
+    font-family: 'Roboto Slab', serif;
+}
