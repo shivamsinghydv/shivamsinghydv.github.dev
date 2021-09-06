@@ -44,8 +44,8 @@ nav a{
     color: rgb(0, 0, 0);
 }
  .links :hover{
-     color: #37daff);     
- }
+     color: #37daff;     
+}
  .active {
     color: white;
     text-decoration: underline;
