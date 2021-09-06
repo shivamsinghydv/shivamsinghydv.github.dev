@@ -15,7 +15,6 @@ body{
 
 
 header h2{
-    background-color: rgb(17, 143, 158)
     text-align: center;
     font-size: 6vw;
     color: white;
@@ -45,7 +44,7 @@ nav a{
     color: rgb(0, 0, 0);
 }
  .links :hover{
-     color: rgb(24, 198, 218);     
+     color: #37daff);     
  }
  .active {
     color: white;
@@ -87,4 +86,7 @@ footer{
     text-align: center;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 30px;
+}
+#headerr{
+    color: #37daff;
 }
