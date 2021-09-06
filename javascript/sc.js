@@ -11,3 +11,7 @@ function showalert(username){
     prompt("Enter your feedback");
     alert("Thanks for your feedback " + username);
 }
+
+function newWindow(){
+    window.open('https://www.google.com')
+}
