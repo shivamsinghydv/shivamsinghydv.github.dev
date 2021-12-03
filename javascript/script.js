@@ -5,5 +5,5 @@ document.querySelector('.theme-toggle-button').addEventListener('click', () =>{
     const currentRotation = parseInt(getComputedStyle(sunMoonContainer).getPropertyValue('--rotation'))
     sunMoonContainer.style.setProperty('--rotation', currentRotation +180)
     
-    location.replace('./main.html')
+    location.replace('../main.html')
 })
