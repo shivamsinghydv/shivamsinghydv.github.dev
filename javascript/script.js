@@ -5,3 +5,7 @@ document.querySelector('.theme-toggle-button').addEventListener('click', () =>{
     const currentRotation = parseInt(getComputedStyle(sunMoonContainer).getPropertyValue('--rotation'))
     sunMoonContainer.style.setProperty('--rotation', currentRotation +180)
 })
+
+document.querySelector('.enter-button').addEventListener('click', () =>{
+    window.location.href = ('./main.html')
+})
