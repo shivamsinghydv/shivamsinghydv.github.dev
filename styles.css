@@ -32,7 +32,8 @@ body.dark{
     margin-bottom: 0.5 rem;
 }
 
-.theme-toggle-button{
+.theme-toggle-button,
+.enter-button{
     background-color: var(--accent-color);
     color: var(--button-text-color);
     
@@ -41,7 +42,7 @@ body.dark{
     justify-content: center;
     align-items: center;
     padding: 0.5em, 1em;
-    border-radius: .3em;
+    border-radius: .2em;
     border: none;
     outline: none;
     transition: var(--transition-delay);
@@ -53,8 +54,14 @@ body.dark{
 }
 
 .theme-toggle-button:hover,
-.theme-toggle-button:focus{
+.theme-toggle-button:focus,
+.enter-button:hover,
+.enter-button:focus{
     transform: scale(1.1);
+}
+.enter-button{
+    margin-top: 1em;
+    padding: 0.5em, 1em;
 }
 
 .sun-moon-container{
