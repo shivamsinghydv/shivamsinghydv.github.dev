@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+* .dark{
+    background-color: black;
+}
 /*background color */
 body{
     background-color: #b16cfe;
@@ -41,10 +44,8 @@ nav a{
     padding: 20px;
     text-align: center;
     float: left;
-    color: rgb(0, 0, 0);
+    color: white;
 }
- .links :hover{
-     color: #37daff;     
 }
  .active {
     color: white;
@@ -74,12 +75,18 @@ footer{
     display: block;
     text-align: center;
 }
+.icon-bar .dark{
+    background-color: white;
+}
 #dp{
     text-align: center;
     margin-top: 6vh;
     width: max-content;
     border: 10px solid #b16cfe;
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
 }
 #email, #hyperlink{
     
