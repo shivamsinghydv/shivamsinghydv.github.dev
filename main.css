@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 * .dark{
+    box-sizing: border-box;
     background-color: black;
 }
 /*background color */
@@ -77,6 +78,12 @@ footer{
 }
 .icon-bar .dark{
     background-color: white;
+}
+body main p .dark{
+    margin: 40px;
+   font-size: 25px;
+   top: 40vh;;
+   text-align: center;  
 }
 #dp{
     text-align: center;
