@@ -159,4 +159,6 @@ body main p .dark{
     display: block;
     justify-content: center;
     text-align: center;
+    width: 60%;
+    height: auto;
 }
