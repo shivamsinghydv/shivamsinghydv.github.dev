@@ -137,16 +137,11 @@ body main p .dark{
    top: 40vh;;
    text-align: center;  
 }
-#dp{
-    text-align: center;
-    margin-top: 6vh;
-    width: max-content;
-    border: 10px solid #b16cfe;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    opacity: 0.8;
+
+body a:link, a:visited, a:hover, a:active{
+    color: #1D9BF0;
 }
+
 #email, #hyperlink{
     
     text-align: center;
@@ -156,6 +151,7 @@ body main p .dark{
 .profile-image{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 11vh;
     display: block;
     justify-content: center;
     text-align: center;
