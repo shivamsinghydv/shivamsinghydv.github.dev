@@ -68,7 +68,7 @@ body{
     border-radius: 10px;
 }
 
-@media (max-width:400px){
+@media (max-width:500px){
     .toggle-button{
         display: flex;
     }
@@ -152,6 +152,8 @@ body main p .dark{
     text-align: center;
     margin-bottom: 30px;
 }
-#headerr{
-    color: white;
+
+.article{
+    top: 60vh;
 }
+
