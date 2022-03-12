@@ -23,8 +23,10 @@ body{
     font-size: x-large;
 }
 
-.brand-title{
+.brand-name{
+    margin-left: 2rem;
     font-size: 1.5rem;
+    font-weight: 550;
     margin: .5 rem;
     padding: .25rem;
 }
@@ -142,6 +144,10 @@ body a:link, a:visited, a:hover, a:active{
     color: #1D9BF0;
 }
 
+body a:hover{
+    color: #f0f3f5;
+}
+
 #email, #hyperlink{
     
     text-align: center;
@@ -161,3 +167,4 @@ body a:link, a:visited, a:hover, a:active{
     max-width: 500px;
     border-radius: 50%;
 }
+
