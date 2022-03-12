@@ -10,7 +10,7 @@ body{
     margin-top: 0px;
     padding: 0;
     margin: 0px;
-    background-color: #33363D;
+    background-color: whitesmoke;
 }
 
 .navbar{
@@ -18,8 +18,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: x-large;
 }
 
@@ -41,7 +41,7 @@ body{
 
 .navbar-links li a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
     padding: 1rem;
     display: block;
 }
@@ -108,7 +108,7 @@ body{
      margin: 40px;
     font-size: 25px;
     top: 40vh;;
-    color: white;
+    /* color: white; */
     text-align: center;  
 }
 
@@ -157,5 +157,7 @@ body a:link, a:visited, a:hover, a:active{
     text-align: center;
     width: 60%;
     height: auto;
+    max-height: 500px;
+    max-width: 500px;
     border-radius: 50%;
 }
