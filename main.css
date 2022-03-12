@@ -157,4 +157,5 @@ body a:link, a:visited, a:hover, a:active{
     text-align: center;
     width: 60%;
     height: auto;
+    border-radius: 50%;
 }
