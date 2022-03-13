@@ -18,8 +18,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: x-large;
 }
 
@@ -141,11 +141,11 @@ body main p .dark{
 }
 
 body a:link, a:visited, a:hover, a:active{
-    color: #1D9BF0;
+    color: rgb(122, 209, 173);
 }
 
-body a:hover{
-    color: #f0f3f5;
+.navbar a:link, a:visited, a:hover, a:active{
+    color: white;
 }
 
 #email, #hyperlink{
@@ -167,4 +167,3 @@ body a:hover{
     max-width: 500px;
     border-radius: 50%;
 }
-
