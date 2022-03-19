@@ -141,7 +141,7 @@ body main p .dark{
 }
 
 body a:link, a:visited, a:hover, a:active{
-    color: rgb(122, 209, 173);
+    color: #d900ba;
 }
 
 .navbar a:link, a:visited, a:hover, a:active{
