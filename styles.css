@@ -256,15 +256,18 @@ header {
 
 /* showcase */
 .showcase{
-  height: 120vh;
-  width: auto;
-  top: 30px;
-  display: flexbox;
-}
-.showcase .item{
-  top: 30px;
-  padding-top: 10vh;
+
   text-align: center;
+  height: calc(1/width);
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.showcase .item{
+  padding: 3rem 3rem 3rem 3rem;
 }
 .showcase a{
   font-weight: 400;
