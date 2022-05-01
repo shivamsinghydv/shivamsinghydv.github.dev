@@ -29,15 +29,16 @@ p {
 }
 
 a {
-  color:rgb(162, 0, 255);
+  color:black;
   font-size: 20px;
   text-decoration: none;
   font-weight: 100;
 }
 
 .dark a {
-  color:rgb(246, 169, 241);
+  color:whitesmoke;
 }
+
 
 header {
   display: flex;
@@ -104,37 +105,7 @@ header {
   margin-bottom: 100px;
 }
 
-.square {
-  width: 98%;
-  margin: 1%;
-  height: 350px;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-}
 
-.dark .square {
-  background-color: rgb(71, 71, 71);
-}
-
-#revenoo {
-  background-image: url("images/revenoo-app.png");
-  background-size: cover;
-}
-
-#burgerrator {
-  background-image: url("images/burgerrator.png");
-  background-size: cover;
-}
-
-#news {
-  background-image: url("images/news-app.png");
-  background-size: cover;
-}
-
-#dates {
-  background-image: url("images/dates-app.png");
-  background-size: cover;
-}
 
 .sub-section {
   display: flex;
@@ -142,9 +113,8 @@ header {
 }
 
 .hero-image {
+  top: 12px;
   position: relative;
-  width: 50%;
-  height: 350px;
   display: block;
   margin-bottom: 100px;
 }
@@ -245,16 +215,7 @@ header {
   background-color: rgb(188, 200, 221);
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 100px 30px;
-    background-color:rgb(136, 136, 136);
-}
 
-.dark footer {
-  background-color:rgb(28, 28, 28);
-}
 
 @media only screen and (min-width: 970px) {
   .main-text {
@@ -270,12 +231,12 @@ footer {
 
 @media only screen and (max-width: 1300px) {
   .hero-image {
-    display: none;
+    display:none;
   }
 }
 /* Appended */
 
-.icon-bar{
+/* .icon-bar{
   position: fixed;
   top: 60%;
   text-decoration: none;
@@ -288,4 +249,41 @@ footer {
 }
 .icon-bar .dark{
   background-color: white;
+} */
+
+
+
+
+/* showcase */
+.showcase{
+  height: 120vh;
+  width: auto;
+  top: 30px;
+  display: flexbox;
+}
+.showcase .item{
+  top: 30px;
+  padding-top: 10vh;
+  text-align: center;
+}
+.showcase a{
+  font-weight: 400;
+}
+
+
+
+/* footer style */
+footer {
+  padding: 90px 55px;
+  background-color:rgb(136, 136, 136);
+}
+
+ footer .dark{
+background-color:whitesmoke;
+}
+
+footer .grid-container .grid-items{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  
 }

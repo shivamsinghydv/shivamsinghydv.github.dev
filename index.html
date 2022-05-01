@@ -3,44 +3,50 @@
     <meta charset="utf-8" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
-  <body>
+  <body id="home">
     <header>
       <div class="switch">
         <div class="flicker"></div>
         <div class="moon"></div>
       </div>
     </header>
-    <div class="icon-bar">
-        <a href="https://github.com/shivamsinghydv"><img src="reso/github.svg" alt="github"></a>
-        <a href="https://twitter.com/shivamsinghydv"><img src="reso/tw.svg" alt="twitter"></a>
-        <a href="https://www.instagram.com/ig.shivamsingh"><img src="reso/insta.svg" alt="instagram"></a>
-        <a href="https://www.facebook.com/profile.php?id=100022575782992"><img src="reso/fb.svg" alt="facebook"></a>
-    </div>
+    
     <section class="main">
       <div class="main-text">
-        <h1>Shivam</h1>
-        <p>Welcome to my Page!</p>
+        
+        <p><h2>Hi!</h2><h3></h3>I am </h3><br><h1>Shivam.</h1><br> <h2>I love coding. Scroll to browse my projects.</h2>
         <br/>
-        <p>I am a Indian teen interested in computers and tech.
-        <br/>
-        <a href="#footer">contact me ></a>
       </div>
 
       <div class="hero-image">
-        <div class="cube" id="react"></div>
-        <div class="cube" id="javascript"></div>
-        <div class="cube" id="html"></div>
-        <div class="cube" id="css"></div>
+        <img src="assets/undraw_creation_re_d1mi.svg" alt="" height="552vh">
       </div>
 
     </section>
+    <section class="showcase" id="showcase">
+      <div class="item"><a href="https://github.com/shivamsinghydv/chatbot"><img height="300vh" src="assets/chatbot.png" alt="spiral image" ><figcaption >Python3: chatbot</figcaption></a>
+      </div>
+      <div class="item"><a href="https://github.com/shivamsinghydv/spiral.py"><img height="300vh" width="300vh" src="assets/spiral.png" alt="spiral image"><figcaption>Python3: creating spiral using turtle</figcaption></a>
+      </div>
+    </section>
     <footer id="footer">
-        shivam9661446@gmail.com
+      <div class="grid-container" >
+        <div style="float:right;" class="grid-items"><a href="mailto:shivam9661446@gmail.com" class="grid-item"><img src="assets/gmail.svg" alt="gmail" height="50px" width="auto" ></a></div>
+        <div style="float: left;" class="grid-items"><a href="https://www.github.com/shivamsinghydv" class="grid-item"><img src="assets/github.svg" alt="github" height="50px" width="auto" ></a></div>
+        <div style="justify-content: center;text-align: center;" class="grid-items"><a href="https://www.twitter.com/shivamsinghydv" class="grid-item"><img src="assets/twitter.svg" alt="twitter" height="50px" width="auto" ></a></div>
+      </div>
     </footer>
 
-    <script src="javascript/scripts.js"></script>
+    <script >
+      const switchElement = document.querySelector('.switch')
+
+      switchElement.addEventListener('click', () => {
+        document.body.classList.toggle('dark')
+      })
+    </script>
   </body>
 </html>
