@@ -263,7 +263,7 @@ header {
 
   text-align: center;
   height: calc(1/width);
-  width: auto;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -287,6 +287,11 @@ footer {
 
  footer .dark{
 background-color:whitesmoke;
+}
+
+.grid-container{
+  display: flex;
+  justify-content: space-between;
 }
 
 footer .grid-container .grid-items{
