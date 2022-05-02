@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Source+Code+Pro:ital@1&display=swap');
+
+
+ /* styles */
 body {
   transition: 0.3s;
   margin: 0;
@@ -289,4 +293,9 @@ footer .grid-container .grid-items{
   padding-left: 10vw;
   padding-right: 10vw;
   
+}
+
+.main-text h1{
+  font-family: Satisfy;
+  font-weight: 400;
 }
