@@ -1,5 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "start_url": ".",
     "short_name": "shivam",
     "name": "shivamsinghydv",
     "icons": [
@@ -9,7 +10,6 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "/?source=pwa",
     "theme_color": "#3367D6",
     "display": "fullscreen",
     "scope": "/"
