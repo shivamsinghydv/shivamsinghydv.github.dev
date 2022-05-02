@@ -3,6 +3,7 @@
     "start_url": ".",
     "short_name": "shivam",
     "name": "shivamsinghydv",
+    "description": "A personal website for shivam",
     "icons": [
         {
             "src": "assets/favicon.ico",
