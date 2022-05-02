@@ -3,10 +3,8 @@ self.addEventListener('activate', event => {
     console.log('Activate event');
 });
 
-
 const cacheName = 'cache-v1';
 const resourcesToPrecache = [
-    '../',
     '../index.html',
     '../css/styles.css',
     '../assets/chatbot.png',
@@ -18,7 +16,7 @@ const resourcesToPrecache = [
     '../assets/qrcode.png',
     '../assets/spiral.png',
     '../assets/twitter.svg',
-    '..//assets/undraw_creation_re_d1mi.svg'
+    '../assets/undraw_creation_re_d1mi.svg'
 ]
 
 
