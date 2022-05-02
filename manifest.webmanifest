@@ -1,16 +1,17 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-    "start_url": ".",
+    "start_url": "index.html",
     "short_name": "shivam",
     "name": "shivamsinghydv",
     "description": "A personal website for shivam",
+    "orientation": "portrait",
+    "display": "fullscreen",
+    "theme_color": "#3367D6",
+    "scope": "/",
     "icons": [
         {
             "src": "assets/favicon.ico",
             "type": "image/svg+xml"
         }
-    ],
-    "theme_color": "#3367D6",
-    "display": "fullscreen",
-    "scope": "/"
+    ] 
 }
