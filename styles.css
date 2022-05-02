@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Source+Code+Pro:ital@1&display=swap');
-
-
  /* styles */
 body {
   transition: 0.3s;
@@ -42,7 +40,6 @@ a {
 .dark a {
   color:whitesmoke;
 }
-
 
 header {
   display: flex;
@@ -107,9 +104,14 @@ header {
 .main-text {
   padding: 30px;
   margin-bottom: 100px;
+  font-family: Patrick Hand,sans-serif;
+  letter-spacing: 0.14rem;
 }
 
-
+.main-text h1{
+  font-family: Patrick Hand,sans-serif;
+  font-weight: 500;
+}
 
 .sub-section {
   display: flex;
@@ -123,113 +125,11 @@ header {
   margin-bottom: 100px;
 }
 
-.cube {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  transform: rotate(-25deg) skew(25deg);
-}
-
-.cube:before {
-  position: absolute;
-  content: "";
-  width: 21px;
-  height: 100%;
-  transform: skewY(-45deg);
-  left: -20px;
-  bottom: -10px;
-}
-
-.cube:after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 21px;
-  transform: skewX(-45deg);
-  left: -10px;
-  bottom: -20px;
-}
-
-#html {
-  left: 100px;
-  bottom: 80px;
-  background-image: url("images/html-square.png");
-  background-size: cover;
-  background-color: rgb(175, 119, 227);
-  box-shadow: -60px 60px 20px rgb(50 50 50/ 15%);
-}
-
-#html:before {
-  background-color: rgb(189, 154, 221);
-}
-
-#html:after {
-  background-color: rgb(205, 188, 221);
-}
-
-#css {
-  left: 250px;
-  bottom: 240px;
-  background-image: url("images/css-square.png");
-  background-size: cover;
-  background-color: rgb(227, 119, 191);
-  box-shadow: -100px 100px 20px rgb(50 50 50/ 15%);
-}
-
-#css:before {
-  background-color: rgb(221, 154, 207);
-}
-
-#css:after {
-  background-color: rgb(221, 188, 211);
-}
-
-#javascript {
-  left: 450px;
-  bottom: 200px;
-  background-image: url("images/javascript-square.png");
-  background-size: cover;
-  background-color: rgb(119, 227, 186);
-  box-shadow: -40px 40px 20px rgb(50 50 50/ 15%);
-}
-
-#javascript:before {
-  background-color: rgb(154, 221, 202);
-}
-
-#javascript:after {
-  background-color: rgb(188, 221, 212);
-}
-
-
-#react {
-  left: 350px;
-  bottom: 40px;
-  background-image: url("images/react-square.png");
-  background-size: cover;
-  background-color: rgb(119, 193, 227);
-  box-shadow: -80px 80px 20px rgb(50 50 50/ 15%);
-}
-
-#react:before {
-  background-color: rgb(154, 189, 221);
-}
-
-#react:after {
-  background-color: rgb(188, 200, 221);
-}
-
 
 
 @media only screen and (min-width: 970px) {
   .main-text {
     width: 50%;
-  }
-
-  .square {
-    width: 48%;
-    margin: 1%;
-    height: 600px;
   }
 }
 
@@ -238,27 +138,7 @@ header {
     display:none;
   }
 }
-/* Appended */
-
-/* .icon-bar{
-  position: fixed;
-  top: 60%;
-  text-decoration: none;
-}
-
-.icon-bar a{
-  margin: 5px;
-  display: block;
-  text-align: center;
-}
-.icon-bar .dark{
-  background-color: white;
-} */
-
-
-
-
-/* showcase */
+/* appended* showcase */
 .showcase{
 
   text-align: center;
@@ -267,18 +147,15 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .showcase .item{
   padding: 3rem 3rem 3rem 3rem;
 }
 .showcase a{
+  font-family: sans-serif;
   font-weight: 400;
 }
-
-
-
 /* footer style */
 footer {
   padding: 90px 55px;
@@ -291,16 +168,16 @@ background-color:whitesmoke;
 
 .grid-container{
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
 }
 
 footer .grid-container .grid-items{
   padding-left: 10vw;
   padding-right: 10vw;
-  
 }
-
-.main-text h1{
-  font-family: Satisfy;
-  font-weight: 400;
+.grid-container .grid-items figcaption{
+  color:rgb(39, 38, 38);
+  font-family: Poppins,sans-serif;
+  font-weight: 500;
 }
