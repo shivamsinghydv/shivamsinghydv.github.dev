@@ -25,5 +25,11 @@
             "type": "image/png",
             "sizes":"512"
         }
+        , {
+            "src": "assets/webd512.png",
+            "type": "image/png",
+            "sizes":"512",
+            "purpose": "maskable"
+        }
     ] 
 }
