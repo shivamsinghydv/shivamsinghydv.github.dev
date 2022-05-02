@@ -6,8 +6,8 @@
     "description": "A personal website for shivam",
     "orientation": "portrait",
     "display": "fullscreen",
-    "theme_color": "#3367D6",
-    "background_color": "#3367D6",
+    "theme_color": "rgb(244, 241, 241)",
+    "background_color": "rgb(244, 241, 241)",
     "scope": "/",
     "icons": [
         {
@@ -30,6 +30,11 @@
             "type": "image/png",
             "sizes":"512",
             "purpose": "maskable"
+        }, {
+            "src": "assets/web.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512",
+            "purpose": "any monochrome maskable"
         }
     ] 
 }
