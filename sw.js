@@ -1,20 +1,3 @@
-self.addEventListener( 'install', event => {
-    console.log('Service worker Install event!');
-    event.waitUntil(
-        caches.open(cacheName)
-            .then(cache => {
-                return cache.addAll(resourcesToPrecache);
-            })
-    );
-});
-
-self.addEventListener('activate', event => {
-    console.log('Activate event');
-});
-
-self.addEventListener('fetch', event =>{
-    console.log('Fetch intercepted for:', event.request.url)
-})
 
 const cacheName = 'cache-v1';
 const resourcesToPrecache = [
@@ -32,3 +15,14 @@ const resourcesToPrecache = [
     'assets/twitter.svg',
     '/assets/undraw_creation_re_d1mi.svg'
 ]
+
+
+self.addEventListener( 'install', event => {
+    console.log('Service worker Install event!');
+    event.waitUntil(
+        caches.open(cacheName)
+            .then(cache => {
+                return cache.addAll(resourcesToPrecache);
+            })
+    );
+});
