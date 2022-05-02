@@ -5,18 +5,18 @@ self.addEventListener('activate', event => {
 
 const cacheName = 'cache-v1';
 const resourcesToPrecache = [
-    '../index.html',
-    '../css/styles.css',
-    '../assets/chatbot.png',
-    '../assets/favicon.ico',
-    '../assets/github.svg',
-    '../assets/gmail.svg',
-    '../assets/picture.jpg',
-    '../assets/python.png',
-    '../assets/qrcode.png',
-    '../assets/spiral.png',
-    '../assets/twitter.svg',
-    '../assets/undraw_creation_re_d1mi.svg'
+    '/index.html',
+    '/css/styles.css',
+    '/assets/chatbot.png',
+    '/assets/favicon.ico',
+    '/assets/github.svg',
+    '/assets/gmail.svg',
+    '/assets/picture.jpg',
+    '/assets/python.png',
+    '/assets/qrcode.png',
+    '/assets/spiral.png',
+    '/assets/twitter.svg',
+    '/assets/undraw_creation_re_d1mi.svg'
 ]
 
 
