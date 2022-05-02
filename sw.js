@@ -1,4 +1,9 @@
 
+self.addEventListener('activate', event => {
+    console.log('Activate event');
+});
+
+
 const cacheName = 'cache-v1';
 const resourcesToPrecache = [
     '/',
@@ -24,5 +29,13 @@ self.addEventListener( 'install', event => {
             .then(cache => {
                 return cache.addAll(resourcesToPrecache);
             })
+    );
+});
+
+self.addEventListener('fetch', event =>{
+    event.respondWith(caches.match(event.request)
+    .then(cachedResponse =>{
+        return cachedResponse || fetch(event.request);
+    })
     );
 });
