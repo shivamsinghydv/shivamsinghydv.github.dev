@@ -6,8 +6,7 @@
     "icons": [
         {
             "src": "assets/favicon.ico",
-            "type": "image/svg+xml",
-            "sizes": "512x512"
+            "type": "image/svg+xml"
         }
     ],
     "theme_color": "#3367D6",
