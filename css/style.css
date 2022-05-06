@@ -120,9 +120,12 @@ header {
   flex-wrap: wrap;
 }
 
+.main .main-text #typewr{
+}
+
 .hero-image {
   top: 12px;
-  position: relative;
+  float: left;
   display: block;
   margin-bottom: 100px;
 }

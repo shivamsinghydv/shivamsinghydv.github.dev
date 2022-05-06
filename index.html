@@ -5,7 +5,7 @@
     <meta name="description" content="I am a 17 year old web developer from India. Click to browse my projects">
     <meta name="theme-color" content="rgb(244, 241, 241)"/>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" >
     <link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials">
     <link rel="apple-touch-icon" href="/assets/webd192.png">
@@ -27,7 +27,7 @@
     <section class="main">
       <div class="main-text">
         
-        <p><h2>Hello 👋</h2><h2>I am </h2><h1>Shivam.</h1> <h2>I love coding. Scroll down to browse through my projects.</h2>
+        <p><h2>Hello 👋</h2><h2>I am </h2><h1>Shivam.</h1> <h2 style="display: flex;" id="typewr"></h2>
         <br/> <a style="height: 1.8
         rem; font-size: 1.3rem;" class="contact-link" href="#footer">contact me</a>
       </div>
@@ -58,5 +58,19 @@
 
     <script src="/script.js"></script>
     <script src="/sw.js"></script>
+    <script>
+      var i = 0;
+      var txt = 'I love coding. Scroll down to browse through my projects.';
+      var speed = 80;
+      
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("typewr").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+      window.onload = typeWriter();
+      </script>
   </body>
 </html>
