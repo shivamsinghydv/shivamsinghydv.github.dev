@@ -13,14 +13,13 @@ if ('serviceWorker' in navigator){
 //typewriter
 var i = 0;
 var txt = 'I love coding. Scroll down to browse through my projects.';
-var speed = 0.3;
-var timout = (1/speed)*10
+var speed = 80;
       
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("typewr").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, timout);
+    setTimeout(typeWriter, speed);
  }
 }
 window.onload = typeWriter();
