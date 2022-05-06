@@ -16,6 +16,9 @@ body {
   font-family: 'Poppins', sans-serif;
   color:rgb(57, 57, 57);
 }
+ 
+
+
 
 h1 {
   font-size: 70px;
@@ -120,8 +123,7 @@ header {
   flex-wrap: wrap;
 }
 
-.main .main-text #typewr{
-}
+
 
 .hero-image {
   top: 12px;
@@ -185,7 +187,11 @@ header {
 
 
 
-
+@media print {
+  html, body {
+     display: none;  /* hide whole page */
+  }
+}
 
 @media only screen and (min-width: 970px) {
   .main-text {
