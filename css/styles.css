@@ -132,6 +132,7 @@ header {
 
 /* styles for the contact me text* */
 .contact-link {
+  padding: 4px 6px 4px 6px;
   font-size: large;
   font-family:Raleway;
   display: inline-block;
@@ -154,7 +155,7 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2098D1;
+  background: #6c63ff;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;
