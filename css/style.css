@@ -137,6 +137,8 @@ header {
 
 /* styles for the contact me text* */
 .contact-link {
+  text-decoration: none;
+  letter-spacing: 2px;
   padding: 4px 6px 4px 6px;
   font-size: large;
   font-family:Raleway;
