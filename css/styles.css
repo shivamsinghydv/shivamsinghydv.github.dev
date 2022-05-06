@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /* styles */
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   transition: 0.3s;
   margin: 0;
@@ -182,4 +186,13 @@ footer .grid-container .grid-items{
   color:rgb(39, 38, 38);
   font-family: Poppins,sans-serif;
   font-weight: 500;
+}
+
+.contact-link{
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  transition: 0.5s;
+}
+.contact-link:hover{
+  background-color: aqua;
 }
