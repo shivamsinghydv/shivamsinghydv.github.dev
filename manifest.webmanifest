@@ -21,17 +21,17 @@
             "sizes": "192x192"
 
         }, {
-            "src": "assets/webd512.png",
+            "src": "assets/webd512.webp",
             "type": "image/png",
             "sizes":"512x512"
         }
         , {
-            "src": "assets/webd512.png",
+            "src": "assets/webd512.webp",
             "type": "image/png",
             "sizes":"512x512",
             "purpose": "maskable"
         }, {
-            "src": "assets/web.svg",
+            "src": "assets/webd.webp",
             "type": "image/svg+xml",
             "sizes": "512x512",
             "purpose": "any monochrome maskable"
