@@ -43,22 +43,29 @@ p {
 }
 
 header {
-  display: flex;
   justify-content: flex-end;
   padding: 30px;
 }
 .landing{
   height: 100%;
 }
+.masthead-avatar{
+  padding-top: 7vw;
+}
 .switch {
+  display: block;
   width: 80px;
   height: 40px;
   border-radius: 20px;
   background-color: rgb(39, 38, 38);
-  position: fixed;
-  margin-right: 10vw;
+  position: absolute;
+  margin-right: 10px;
   margin-top: 0.5rem;
-  
+  right: 0;
+}
+.theme-button{
+  position: fixed;
+  top: 0;
 }
 
 .dark .switch{
