@@ -60,8 +60,9 @@ header {
   border-radius: 20px;
   background-color: rgb(39, 38, 38);
   position: fixed;
-  margin-left: 10px;
+  margin-right: 10vw;
   margin-top: 0.5rem;
+  
 }
 
 .dark .switch{
