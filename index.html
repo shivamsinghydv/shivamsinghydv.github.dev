@@ -7,6 +7,7 @@
     <title>Shivam</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" >
     <link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials">
     <link rel="apple-touch-icon" href="/assets/webd192.png">
@@ -42,6 +43,38 @@
       <span class="item"><a href="https://github.com/shivamsinghydv/twitter-header"><img height="300vh" width="300vh" src="assets/python.webp" alt="python-logo"><figcaption>Live reloading twitter-header</figcaption></a>
       </span>
       
+    </section>
+    <section id="contact" class="mt-4 pt-5 mb-5 pb-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <form id="contactForm" method="post" target="_blank" action="https://forms.un-static.com/forms/e3b99322142d186afe578e19563d9495a7d4b071"> 
+                
+                <div class="form-floating mb-2">
+                    <input name="name" class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                    <label for="name">Full name</label>
+                    </div>
+                <div class="form-floating mb-3">
+                    <input required class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                    <label for="email">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input name="phone-number" class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" />
+                    <label for="phone">Phone number</label>
+                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea required class="form-control" name="message" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                    <label for="message">Message</label>
+                    <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
+                </div>
+                
+
+                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                
+                <button class="btn btn-primary btn-xl" id="submitButton" type="submit"> <i class="fa fa-paper-plane"></i> Send</button>
+            </form>
+        </div> 
+    </div>
     </section>
     <footer id="footer">
       <div class="grid-container text-center" >
