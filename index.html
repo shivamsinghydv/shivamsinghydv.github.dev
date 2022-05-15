@@ -21,16 +21,16 @@
     <script defer src="js/sw.js"></script>
   </head>
   <body id="home">
-      <div class="theme-button">
+      <div class="theme-button position-static">
         <div class="switch">
           <div class="flicker"></div>
           <div class="moon"></div></div>
       </div>
-    <section style="height: 100vh;" class="masthead text-center">
-        <img class="masthead-avatar " src="assets/avatar.svg" alt="..." >
+    <section class="masthead text-center" id="welcome">
+        <img class="masthead-avatar mt-0 mb-5" src="assets/avatar.svg" alt="..." >
           <h2 style="display: flex;width: 75%;margin-left: 12.5%;" id="typewr"></h2>
           <br/> <a style="height: 1.8
-          rem; font-size: 1.3rem;" class="contact-link" href="#footer">contact me</a>
+          rem; font-size: 1.3rem;" class="contact-link" href="#contact">contact me</a>
  
     </section>
     <section class="showcase">
@@ -44,34 +44,29 @@
       </span>
       
     </section>
-    <section id="contact" class="mt-4 pt-5 mb-5 pb-4">
+    <section id="contact">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-xl-7">
             <form id="contactForm" method="post" target="_blank" action="https://forms.un-static.com/forms/e3b99322142d186afe578e19563d9495a7d4b071"> 
                 
-                <div class="form-floating mb-2">
+                <div class="form-floating bg-white mb-2">
                     <input name="name" class="form-control" id="name" type="text" placeholder="Enter your name..." required />
-                    <label for="name">Full name</label>
+                    <label class="label" for="name">Full name</label>
                     </div>
                 <div class="form-floating mb-3">
                     <input required class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                    <label for="email">Email address</label>
+                    <label class="label"for="email">Email address</label>
                 </div>
                 <div class="form-floating mb-3">
                     <input name="phone-number" class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" />
-                    <label for="phone">Phone number</label>
-                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                    <label class="label" for="phone">Phone number</label>
                 </div>
                 <div class="form-floating mb-3">
                     <textarea required class="form-control" name="message" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                    <label for="message">Message</label>
+                    <label class="label" for="message">Message</label>
                     <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
                 </div>
-                
-
-                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                
-                <button class="btn btn-primary btn-xl" id="submitButton" type="submit"> <i class="fa fa-paper-plane"></i> Send</button>
+                <button class="btn-primary btn btn-xl" id="submitButton" type="submit"> <i class="fa fa-paper-plane"></i> Send</button>
             </form>
         </div> 
     </div>
