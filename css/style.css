@@ -320,9 +320,9 @@ footer .grid-container .grid-items{
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn{
-  transition: 2s;
-}
-.btn:hover{
-  transform:rotateX(20deg) rotateY(-15deg) rotateZ(10deg);
+
+.dark .btn:hover{
+  color: #fff;
+  background-color: #1c1f23;
+  border-color: #1a1e21;
 }
