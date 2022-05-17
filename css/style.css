@@ -326,3 +326,8 @@ footer .grid-container .grid-items{
   background-color: #1c1f23;
   border-color: #1a1e21;
 }
+
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
