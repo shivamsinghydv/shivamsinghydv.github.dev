@@ -149,7 +149,7 @@ body section{
 
 
 
-/* styles for the contact me text* */
+/* styles for the contact me text*
 .contact-link {
   text-decoration: none;
   letter-spacing: 2px;
@@ -188,11 +188,6 @@ body section{
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-.dark .contact-link::before{
-  background: rgb(0, 0, 0);
-}
-
 .contact-link:hover, .contact-link:focus, .contact-link:active {
   color: white;
 }
@@ -200,12 +195,17 @@ body section{
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+*/
 
-.dark .contact-link{
-  background-color: rgb(57, 57, 57);
-  color: aliceblue;
+.dark .contact-link::before{
+  background: rgb(0, 0, 0);
 }
 
+
+.dark .contact-link{
+  color: rgb(57, 57, 57);
+  background-color: aliceblue;
+}
 
 
 @media print {
@@ -330,4 +330,20 @@ footer .grid-container .grid-items{
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
+}
+a{
+  color: inherit;
+}
+a:hover{
+  color: inherit;
+}
+
+.masthead-avtar{
+  width: 15rem;
+}
+
+.dark.btn-outline-primary{
+  background-color: #fff !important;
+  color: #1c1f23 !important;
+  border-color: #1a1e21;
 }
