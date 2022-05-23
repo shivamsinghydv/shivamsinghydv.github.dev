@@ -27,8 +27,8 @@
           <div class="flicker"></div>
           <div class="moon"></div></div>
       </div>
-    <section class="masthead text-center" id="welcome">
-        <img style="padding-top:4ch;" height="300px" src="assets/avatar.svg" class="rounded mx-auto my-auto d-block mb-5 center-block" alt="...">
+    <section class="container-fluid masthead text-center" id="welcome">
+        <img style="padding-top:4ch;" height="300px" src="assets/avatar.svg" class="mb-5 masthead-avatar" alt="...">
           <h2 style="display: flex;width: 75%;margin-left: 12.5%;" id="typewr"></h2>
           <br/>
           <div class=" flex-wrap align-items-center">
@@ -37,25 +37,77 @@
    
           </div>
     </section>
-    <section class="showcase">
-      <span class="item"><a href="https://github.com/shivamsinghydv/chatbot"><img height="300vh" width="300vh" src="assets/chatbot.webp" alt="spiral image" ><figcaption >Python3: chatbot</figcaption></a>
-      </span>
-      <span class="item" style="float: left;"><a href="https://github.com/shivamsinghydv/qr_code-generator"><img height="300vh" width="300vh" src="assets/qrcode.png" alt="qrcode"><figcaption>python3: QR code generator</figcaption></a>
-      </span>
-      <span class="item"><a href="https://github.com/shivamsinghydv/spiral.py"><img height="300vh" width="300vh" src="assets/spiral.webp" alt="spiral image"><figcaption>Python3: creating spiral</figcaption></a>
-      </span>
-      <span class="item"><a href="https://github.com/shivamsinghydv/twitter-header"><img height="300vh" width="300vh" src="assets/python.webp" alt="python-logo"><figcaption>Live reloading twitter-header</figcaption></a>
-      </span>
-      
+    <section class="container-fluid">
+      <div class="row justify-content-center d-flex">
+        <div class="card mb-5 " style="width: 18rem;">
+          <img class="card-img-top" src="assets/chatbot.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">AI Chatbot</h5>
+            <p class="card-text">An AI model that is created using <a target="_blank" href="https://www.python.org/">python3</a> and is trained using some given data then uses it to chat to humans.  <br></p>
+            <a target="_blank" href="https://github.com/shivamsinghydv/chatbot" class="btn btn-outline-info">codebase</a>
+          </div>
+        </div>
+        <div class="card mb-5" style="width: 18rem;">
+          <img class="card-img-top" src="assets/qrcode.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">QRcode generator</h5>
+            <p class="card-text">A <a target="_blank" href="https://www.python.org/">python3</a> script that takes a string as a parameter and converts it to qrcode. <br><br></p>
+            <a target="_blank" href="https://github.com/shivamsinghydv/qr_code-generator" class="btn btn-outline-info">codebase</a>
+          </div>
+        </div>
+        <div class="card  mb-5" style="width: 18rem;">
+          <img class="card-img-top" src="assets/spiral.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Spiral</h5>
+            <p class="card-text">A <a target="_blank" href="https://www.python.org/">python3</a> script that when run creates a visual spiral with turtle . <br> <br></p>
+            <a target="_blank" href="https://github.com/shivamsinghydv/spiral.py" class="btn btn-outline-info">codebase</a>
+          </div>
+        </div>
+        <div class="card  mb-5" style="width: 18rem;">
+          <div class="h-75">
+            <img class="card-img-top" style="padding-top: 3rem;" src="assets/1500x500.jpeg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Twitter-header-updater</h5>
+            <p class="card-text">A <a target="_blank" href="https://www.python.org/">python3</a> script that refreshes my twitter header at runtime. <br> <br></p>
+            <a target="_blank" href="https://github.com/shivamsinghydv/twitter-header" class="btn btn-outline-info">codebase</a>
+          </div>
+        </div>
+      </div>
     </section>
-    
-    <footer class="bg-secondary" id="footer">
+    <footer class="footer text-center">
+      <div class="container">
+          <div class="row">
+              <!-- Footer Location-->
+              <div class="col-lg-6 mb-5 mb-lg-0">
+                  <h4 class="text-uppercase mb-4">Location</h4>
+                  <p class="lead mb-0">
+                      844101, Bihar,
+                      <br />
+                      India
+                  </p>
+              </div>
+              <!-- Footer Social Icons-->
+              <div class="col-lg-6 mb-5 mb-lg-0">
+                  <h4 class="text-uppercase mb-4">Around the Web</h4>
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://www.github.com/shivamsinghydv"><i class="fab fa-fw fa-github"></i></a>
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/shivamsinghydv"><i class="fab fa-fw fa-twitter"></i></a>
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/profile.php?id=100022575782992"><i class="fab fa-fw fa-facebook-f"></i></a>
+                  <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/shivxmsinghydv"><i class="fab fa-fw fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer> 
+  <div class="copyright py-4 text-center bg-secondary">
+    <div class="container"><small>Copyright © Shivam Singh 2022</small></div>
+</div>
+    <!-- <footer class="bg-secondary" id="footer">
       <main><div class="d-flex flex-wrap align-items-center">
         <div class="mx-auto"><a href="https://www.github.com/shivamsinghydv" class="btn btn-outline-light btn-social mx-1 h-4"><i class="fa-brands fa-twitter"></i></a></div>
         <div class="mx-auto"><a href="https://www.twitter.com/shivamsinghydv" class="btn btn-outline-light btn-social mx-1"><i class="fa-brands fa-github"></i></a></div>
         <div class="mx-auto"><a href="https://www.instagram.com/shivxmsinghydv" class="btn btn-outline-light btn-social mx-1"><i class="fa-brands fa-instagram"></i></a></div>
         </div></main>
-    </footer>
+    </footer> -->
 
   </body>
 </html>

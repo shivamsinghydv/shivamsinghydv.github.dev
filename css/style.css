@@ -241,29 +241,35 @@ body section{
   margin: 30px 15px 30px 15px;
 }
 .showcase .item{
+  border-radius: 14px;
+background: linear-gradient(225deg, #cacaca, #f0f0f0);
+box-shadow:  -31px 31px 91px #bebebe,
+             31px -31px 91px #ffffff;
+}
+/*
+.showcase .item{
   -webkit-border-radius: 12px;
 border-radius: 12px;
 background: #f4f1f1;
 -webkit-box-shadow: 12px 12px 24px #cbc8c8, -12px -12px 24px #ffffff;
 box-shadow: 12px 12px 24px #cbc8c8, -12px -12px 24px #ffffff;
-}
-.dark .showcase .item{
+} */
+.dark .card{
 
 background: #2b2b2b;
 -webkit-box-shadow: 12px 12px 24px #2b2b2b, -12px -12px 24px #2b2b2b;
 box-shadow: 12px 12px 24px #2b2b2b, -12px -12px 24px #2b2b2b;
 }
 
-
-.showcase a{
-  font-family: sans-serif;
-  font-weight: 400;
+.card{
+  margin-left: 1.5rem;
 }
 /* footer style */
 footer {
   width: 100%;
   padding: 90px 55px;
-  background-color:rgba(136, 136, 136, 0.508);
+  background-color:rgb(81, 79, 79);
+  color: white;
 }
 .dark footer {
 background-color: rgb(57, 57, 57);
@@ -338,8 +344,8 @@ a:hover{
   color: inherit;
 }
 
-.masthead-avtar{
-  width: 15rem;
+.masthead-avatar{
+  align-self: center;
 }
 
 .dark.btn-outline-primary{
