@@ -4,16 +4,36 @@ html{
   scroll-behavior: smooth;
   width: 98.8%;
 }
+.header{
+  background-color: white;
+  height: 9vw;
+}
+.logo{
+  font-weight: bolder;
+  color: #000;
+}
 
 body {
   transition: 0.3s;
   margin: 0;
   padding: 0;
-  background-color: rgb(244, 241, 241);
+  background-color: #d9d9d9;
   font-family: 'Poppins', sans-serif;
   color:rgb(57, 57, 57);
+  align-items: center;
+  justify-content: center;
 }
- 
+body header img {
+  display: block;
+}
+.logo{
+  height: 12rem;
+
+} 
+
+.card{
+  background-color: #c7c7c7;
+}
 
 
 
@@ -351,7 +371,7 @@ box-shadow: 12px 12px 24px #2b2b2b, -12px -12px 24px #2b2b2b;
 footer {
   width: 100%;
   padding: 90px 55px;
-  background-color:rgb(81, 79, 79);
+  background-color:#737373;
   color: white;
 }
 .dark footer {
@@ -441,4 +461,9 @@ a:hover{
   background-color: #fff !important;
   color: #1c1f23 !important;
   border-color: #1a1e21;
+}
+
+.copyright{
+  background-color: #575757;
+  color: white;
 }
