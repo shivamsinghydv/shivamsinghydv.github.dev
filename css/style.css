@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 /* styles */
 html{
   scroll-behavior: smooth;
@@ -6,10 +6,17 @@ html{
 }
 .header{
   align-items: center;
-  background-color: white;
   height: 16vh;
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 5px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transition: 0.2s;
 }
 .logo{
+  font-family: sacramento, sans-serif;
   font-weight: bolder;
   font-size: xx-large;
   color: #000;
