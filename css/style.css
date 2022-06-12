@@ -140,11 +140,10 @@ header {
   align-items: center;
   padding: 30px;
 }
-
 .main-text {
   padding: 30px;
   margin-bottom: 100px;
-  font-family: Patrick Hand,sans-serif;
+  font-family: monospace,sans-serif;
   letter-spacing: 0.14rem;
 }
 

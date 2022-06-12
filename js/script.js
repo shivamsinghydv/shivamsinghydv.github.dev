@@ -12,7 +12,7 @@ if ('serviceWorker' in navigator){
 
 //typewriter
 var i = 0;
-var txt = "I am an indian web-developer.";
+var txt = "I am a web-developer from India.";
 var speed = 18;
       
 function typeWriter() {
