@@ -40,9 +40,16 @@ body header img {
   height: 12rem;
 } 
 .dark .logo{
-  color: #fff;
-  
+  color: #fff; 
 }
+
+.hero-img{
+  padding-top:4ch;
+}
+.masthead-avatar{
+  background-color: #575757;
+}
+
 .card{
   background-color: #c7c7c7;
 }
