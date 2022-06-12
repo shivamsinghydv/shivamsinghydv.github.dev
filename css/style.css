@@ -4,6 +4,17 @@ html{
   scroll-behavior: smooth;
   width: 100% !important;
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
 .header{
   align-items: center;
   height: 16vh;
@@ -17,8 +28,8 @@ html{
 }
 .logo{
   font-family: sacramento, sans-serif;
-  font-weight: bolder;
-  font-size: xx-large;
+  font-size: 3em;
+  font-weight: normal;
   color: #000;
   height: auto;
 }
@@ -36,9 +47,7 @@ body {
 body header img {
   display: block;
 }
-.logo{
-  height: 12rem;
-} 
+
 .dark .logo{
   color: #fff; 
 }
@@ -54,24 +63,6 @@ body header img {
   background-color: #c7c7c7;
 }
 
-h1 {
-  font-size: 70px;
-  line-height: 70px;
-  font-weight: 300;
-  margin: 10px 0;
-}
-
-h2 {
-  font-size: 40px;
-  line-height: 40px;
-  font-weight: 300;
-  margin: 50px 0 10px 0;
-}
-
-p {
-  margin: 0px;
-  font-size: 20px;
-}
 
 .dark a {
   background-color: rgb(57, 57, 57);
@@ -82,9 +73,11 @@ header {
   justify-content: flex-end;
   padding: 30px;
 }
+
 .landing{
   height: 100%;
 }
+
 .switch {
   display: block;
   width: 80px;
