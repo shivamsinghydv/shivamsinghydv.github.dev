@@ -45,8 +45,6 @@ body header img {
   background-color: #c7c7c7;
 }
 
-
-
 h1 {
   font-size: 70px;
   line-height: 70px;
@@ -65,8 +63,6 @@ p {
   margin: 0px;
   font-size: 20px;
 }
-
-
 
 .dark a {
   background-color: rgb(57, 57, 57);
@@ -112,7 +108,6 @@ header {
     inset 4px 4px 4px rgb(255,255,255),
     inset -4px -4px 4px rgb(195 193 198 / 90%);
 }
-
 
 .dark {
   background-color: rgb(57, 57, 57);
@@ -167,65 +162,12 @@ body section{
   padding: 2rem 0 2rem 0;
 }
 
-
-
 .hero-image {
   top: 12px;
   float: left;
   display: block;
   margin-bottom: 100px;
 }
-
-
-
-
-/* styles for the contact me text*
-.contact-link {
-  text-decoration: none;
-  letter-spacing: 2px;
-  padding: 2px 4px 2px 4px;
-  font-size: large;
-  font-family:Raleway;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  background: #e1e1e1;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-.contact-link:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #1abc9c;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.contact-link:hover, .contact-link:focus, .contact-link:active {
-  color: white;
-}
-.contact-link:hover:before, .contact-link:focus:before, .contact-link:active:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-*/
 
 
 .dd-button {
@@ -279,6 +221,22 @@ body section{
   border-top: 5px solid black;
 }
 
+.btn-outline-primar {
+  --bs-btn-color: #000000;
+  --bs-btn-border-color: #5c6e58;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #8aa899;
+  --bs-btn-hover-border-color: #0d6efd;
+  --bs-btn-focus-shadow-rgb: 13,110,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0d6efd;
+  --bs-btn-active-border-color: #0d6efd;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #0d6efd;
+  --bs-btn-disabled-bg: transparent;
+  --bs-gradient: none;
+}
+
 .dd-input {
   display: none;
 }
@@ -324,7 +282,7 @@ body section{
 @media print {
   html, body {
      display: none;  /* hide whole page */
-  }
+    }
 }
 
 @media only screen and (min-width: 970px) {
@@ -338,40 +296,11 @@ body section{
     display:none;
   }
 }
-/* appended* showcase */
-/* .showcase{
-
-  text-align: center;
-  height: calc(1/width);
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.showcase .item{
-  padding: 0.8rem 0.8rem 3rem 0.8rem;
-  margin: 30px 15px 30px 15px;
-}
-.showcase .item{
-  border-radius: 14px;
-background: linear-gradient(225deg, #cacaca, #f0f0f0);
-box-shadow:  -31px 31px 91px #bebebe,
-             31px -31px 91px #ffffff;
-} */
-/*
-.showcase .item{
-  -webkit-border-radius: 12px;
-border-radius: 12px;
-background: #f4f1f1;
--webkit-box-shadow: 12px 12px 24px #cbc8c8, -12px -12px 24px #ffffff;
-box-shadow: 12px 12px 24px #cbc8c8, -12px -12px 24px #ffffff;
-} */
 .dark .card{
-
-background: #2b2b2b;
--webkit-box-shadow: 12px 12px 24px #2b2b2b, -12px -12px 24px #2b2b2b;
-box-shadow: 12px 12px 24px #2b2b2b, -12px -12px 24px #2b2b2b;
+  
+  background: #2b2b2b;
+  -webkit-box-shadow: 12px 12px 24px #2b2b2b, -12px -12px 24px #2b2b2b;
+  box-shadow: 12px 12px 24px #2b2b2b, -12px -12px 24px #2b2b2b;
 }
 
 .card{
@@ -389,7 +318,7 @@ background-color: rgb(57, 57, 57);
 }
 .dark footer .grid-container figcaption{
   color: aliceblue;
-  }
+}
 .grid-container{
   display: flex;
   flex-wrap: wrap-reverse;
@@ -409,16 +338,6 @@ footer .grid-container .grid-items{
   background-color: gray;
   color: #cbc8c8;
 }
-
-/* @media screen and (max-width: 710px) {
-  .masthead .masthead-avatar {
-    padding-top: 0;
-    padding-bottom: 0;
-  }.masthead{
-    font-size: 3vw;
-  }
-}
-  */
 
 .dark .form-control{
   background-color: rgb(57, 57, 57);
@@ -477,3 +396,93 @@ a:hover{
   background-color: #575757;
   color: white;
 }
+
+
+
+/* appended* showcase */
+/* .showcase{
+  
+  text-align: center;
+  height: calc(1/width);
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.showcase .item{
+  padding: 0.8rem 0.8rem 3rem 0.8rem;
+  margin: 30px 15px 30px 15px;
+}
+.showcase .item{
+  border-radius: 14px;
+  background: linear-gradient(225deg, #cacaca, #f0f0f0);
+  box-shadow:  -31px 31px 91px #bebebe,
+             31px -31px 91px #ffffff;
+            } */
+/*
+.showcase .item{
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+background: #f4f1f1;
+-webkit-box-shadow: 12px 12px 24px #cbc8c8, -12px -12px 24px #ffffff;
+box-shadow: 12px 12px 24px #cbc8c8, -12px -12px 24px #ffffff;
+} */
+
+/* @media screen and (max-width: 710px) {
+  .masthead .masthead-avatar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }.masthead{
+    font-size: 3vw;
+  }
+}
+  */
+  
+/* styles for the contact me text*
+.contact-link {
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 2px 4px 2px 4px;
+  font-size: large;
+  font-family:Raleway;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.contact-link:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1abc9c;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.contact-link:hover, .contact-link:focus, .contact-link:active {
+  color: white;
+}
+.contact-link:hover:before, .contact-link:focus:before, .contact-link:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+*/
