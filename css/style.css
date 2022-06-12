@@ -75,7 +75,7 @@ header {
 }
 
 #welcome{
-  height: 100%;
+  height: 95vh;
 }
 
 .switch {
@@ -236,6 +236,7 @@ body section{
   --bs-btn-disabled-color: #353636;
   --bs-btn-disabled-bg: transparent;
   --bs-gradient: none;
+  font-size: 1.3em;
 }
 
 .dd-input {
@@ -385,11 +386,11 @@ a:hover{
 
 .masthead-avatar{
   align-self: center;
-  margin-top: 5.5rem;
-  margin-bottom: 1.8rem;
+  margin-top: 7.5rem;
+  margin-bottom: 2.8rem;
 }
 
-.dark.btn-outline-primary{
+.dark.btn-outline-primar{
   background-color: #fff !important;
   color: #1c1f23 !important;
   border-color: #1a1e21;
