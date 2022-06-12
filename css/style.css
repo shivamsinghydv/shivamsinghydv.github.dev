@@ -74,7 +74,7 @@ header {
   padding: 30px;
 }
 
-.landing{
+#welcome{
   height: 100%;
 }
 
@@ -385,6 +385,8 @@ a:hover{
 
 .masthead-avatar{
   align-self: center;
+  margin-top: 5.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .dark.btn-outline-primary{
