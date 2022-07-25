@@ -356,7 +356,7 @@ footer .grid-container .grid-items{
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
 }
 .dark .btn {
-  back-ground-color: #000;
+  background-color: #000;
   color: #f8f9fa;
   border-color: #1a1e21;
 }
