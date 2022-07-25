@@ -17,7 +17,7 @@ html{
 
 .header{
   align-items: center;
-  height: 16vh;
+  height: 5.8rem;
   background: rgba( 255, 255, 255, 0.25 );
   box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.27 );
   backdrop-filter: blur( 3px );
@@ -294,8 +294,8 @@ body section{
 }
 
 @media only screen and (max-width: 1300px) {
-  .hero-image {
-    display:none;
+  .header{
+    height: 16vh;
   }
 }
 .dark .card{
