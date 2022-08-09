@@ -67,14 +67,14 @@ body header img {
 .masthead-avatar{
   background-color: #575757;
 }
-
+/*
 .card{
   background-color: #e5e5f7;
 opacity: 0.8;
 background-image: radial-gradient(#444cf7 0.6000000000000001px, #e5e5f7 0.6000000000000001px);
 background-size: 2px 2px;
 }
-
+*/
 
 .dark a {
   background-color: rgb(57, 57, 57);
