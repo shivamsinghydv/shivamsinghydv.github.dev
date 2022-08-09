@@ -48,6 +48,15 @@ body header img {
   display: block;
 }
 
+/* welcome bg */
+#welcome, .masthead{
+  background-color: #e5e5f7;
+  opacity: 0.9;
+  background-image:  radial-gradient(#878790 1.35px, transparent 1.35px), radial-gradient(#878790 1.35px, #e5e5f7 1.35px);
+  background-size: 54px 54px;
+  background-position: 0 0,27px 27px;
+}
+
 .dark .logo{
   color: #fff; 
 }
@@ -60,7 +69,10 @@ body header img {
 }
 
 .card{
-  background-color: #c7c7c7;
+  background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(#444cf7 0.6000000000000001px, #e5e5f7 0.6000000000000001px);
+background-size: 2px 2px;
 }
 
 
@@ -570,3 +582,13 @@ box-shadow: 12px 12px 24px #cbc8c8, -12px -12px 24px #ffffff;
     opacity: 1;
   }
 }
+
+/* parallax effect */
+/* .parallax {
+  background-image: url("../assets/parallaxbg.jpg");
+  height: '100%';
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

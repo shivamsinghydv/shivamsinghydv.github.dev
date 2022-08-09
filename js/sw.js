@@ -5,18 +5,9 @@ self.addEventListener('activate', event => {
 const cacheName = 'cache-v1';
 const resourcesToPrecache = [
     '/index.html',
-    '/css/styles.css',
     '/css/style.css',
-    '/assets/chatbot.webp',
-    '/assets/favicon.ico',
-    '/assets/github.svg',
-    '/assets/gmail.svg',
-    '/assets/python.webp',
-    '/assets/qrcode.png',
-    '/assets/spiral.webp',
-    '/assets/web.svg',
-    '/assets/avatar.svg',
-    '/assets/avataaars.svg',
+    '/js/',
+    '/assets/'
 ]
 
 
