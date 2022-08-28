@@ -48,14 +48,21 @@ body header img {
   display: block;
 }
 
-/* welcome bg */
+/* welcome bg 
 #welcome, .masthead{
   /* background-color: #e5e5f7; */
   opacity: 0.9;
+<<<<<<< HEAD
   /* background-image:  radial-gradient(#878790 1.35px, transparent 1.35px), radial-gradient(#878790 1.35px, #e5e5f7 1.35px); */
   /* background-size: 54px 54px; */
   /* background-position: 0 0,27px 27px; */
 }
+=======
+  background-image:  radial-gradient(#878790 1.35px, transparent 1.35px), radial-gradient(#878790 1.35px, #e5e5f7 1.35px);
+  background-size: 54px 54px;
+  background-position: 0 0,27px 27px;
+}*/
+>>>>>>> cae3eeadafc06fedb6b5c72bd7601a6a9046f8a8
 
 .dark .logo{
   color: #fff; 
@@ -67,14 +74,14 @@ body header img {
 .masthead-avatar{
   background-color: #575757;
 }
-
+/*
 .card{
   background-color: #e5e5f7;
 opacity: 0.8;
 background-image: radial-gradient(#444cf7 0.6000000000000001px, #e5e5f7 0.6000000000000001px);
 background-size: 2px 2px;
 }
-
+*/
 
 .dark a {
   background-color: rgb(57, 57, 57);
