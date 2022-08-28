@@ -50,11 +50,11 @@ body header img {
 
 /* welcome bg */
 #welcome, .masthead{
-  background-color: #e5e5f7;
+  /* background-color: #e5e5f7; */
   opacity: 0.9;
-  background-image:  radial-gradient(#878790 1.35px, transparent 1.35px), radial-gradient(#878790 1.35px, #e5e5f7 1.35px);
-  background-size: 54px 54px;
-  background-position: 0 0,27px 27px;
+  /* background-image:  radial-gradient(#878790 1.35px, transparent 1.35px), radial-gradient(#878790 1.35px, #e5e5f7 1.35px); */
+  /* background-size: 54px 54px; */
+  /* background-position: 0 0,27px 27px; */
 }
 
 .dark .logo{
