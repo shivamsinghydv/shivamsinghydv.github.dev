@@ -340,9 +340,31 @@ body section{
 footer {
   width: 100%;
   padding: 90px 55px;
-  background-color:#737373;
-  color: white;
+  background-color: var(--bg);
+  color: var(--color);
+  height: 100vh;
+  font-size: larger;
+  padding-top: 20vh;
 }
+
+#github{
+  background-color: var(--color);
+}
+#twitter{
+  background-color: var(--primary);
+}
+#facebook{
+  background-color: #4267B2;
+}
+#instagram{
+  background-color: #d62976;
+}
+
+.btn-social{
+  background-color: #000000;
+  font-size:xxx-large;
+}
+
 .dark footer {
 background-color: rgb(57, 57, 57);
 }
@@ -430,8 +452,8 @@ a{
 }
 
 .copyright{
-  background-color: #575757;
-  color: white;
+  background-color: var(--secondary);
+  color: var(--bg);
 }
 
 .modal-header{
