@@ -631,7 +631,6 @@ background: var(--color);
 color: white;
 border: 1px solid #6C757D;
 border-radius: 6px;
-top: 2em;
 }
 .btn2{
   box-sizing: border-box;
@@ -644,7 +643,6 @@ top: 2em;
   color: white;
   border: 1px solid #6C757D;
   border-radius: 6px;
-  top: 2em;
   }
 
 .cardi {
@@ -656,6 +654,11 @@ border-radius: 20px;
 width: 50%;
 margin: 30px;
 padding-left: 20px;
-padding-top: 10px;
+padding-top: 20px;
+padding-bottom: 10px;
 }
 
+.card-body{
+  width: auto;
+  height: 175px;
+}
