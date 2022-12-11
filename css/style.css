@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Source+Code+Pro:ital@1&display=swap');
 
 :root{
-  --bg: #FFFFFF;
-  --color: #2E2E2E;
+  --bg: #e7e5ae;
+  --color: #242424;
   --primary: #268AFA;
-  --secondary: #162C9A;
-  --accent: #FAAA20;
+  --secondary: #5d3a2b;
+  --accent: #f5b354;
 }
 
 
@@ -26,21 +26,33 @@ html{
 }
 
 .header{
-  align-items: center;
-  height: 5.8rem;
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.27 );
-  backdrop-filter: blur( 3px );
-  -webkit-backdrop-filter: blur( 3px );
-  border: 1px solid rgba( 255, 255, 255, 0.25 );
-  transition: 0.2s;
+  box-sizing: border-box;
+  position: relative;
+  width: 100vw;
+  height: 115px;
+  padding-top: 2em;
+  padding-left: 2em;
+
+  background: rgba(255, 255, 255, 0.225);
+  border: 1px solid rgba(255, 255, 255, 0.225);
+  box-shadow: 0px 4px 16px rgba(31, 38, 135, 0.243);
 }
+.theme-button{
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  right: 3em;
+  top: 2em
+  }
+  
 .logo{
   font-family: sacramento, sans-serif;
   font-size: 3em;
   font-weight: normal;
   color: var(--color);
   height: auto;
+  top: 2em;
 }
 
 body {
@@ -92,11 +104,6 @@ background-size: 2px 2px;
 .dark a {
   background-color: rgb(57, 57, 57);
   color:whitesmoke;
-}
-
-header {
-  justify-content: flex-end;
-  padding: 30px;
 }
 
 #welcome{
@@ -563,3 +570,92 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
 } */
+
+.cert-btn{
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 7px 22.1562px 6.79688px 22px;
+
+position: absolute;
+width: 150px;
+height: 60px;
+left: calc(50% - 150px/2 - 17px); /*17px was 77px*/
+top: calc(50% - 60px/2 + 267.55px);
+
+background: #5D3A2B;
+border-radius: 20px;
+
+
+/* View certs */
+
+width: 186px;
+height: 42px;
+
+font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+/* or 144% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.card-ttle{
+  top: 1.5em;
+  font-weight: bolder;
+  font-size: 22px;
+  left: 20px;
+}
+.btn1{
+box-sizing: border-box;
+padding: 6 12;
+position: relative;
+width: 95.39px;
+left:30px;
+height: 38px;
+background: var(--color);
+color: white;
+border: 1px solid #6C757D;
+border-radius: 6px;
+top: 2em;
+}
+.btn2{
+  box-sizing: border-box;
+  padding: 6 12;
+  position: relative;
+  width: 95.39px;
+  left:35px;
+  height: 38px;
+  background: var(--accent);
+  color: white;
+  border: 1px solid #6C757D;
+  border-radius: 6px;
+  top: 2em;
+  }
+
+.cardi {
+box-sizing: border-box;
+height: 210px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.176);
+border-radius: 20px;
+width: 50%;
+margin: 30px;
+padding-left: 20px;
+padding-top: 10px;
+}
+
