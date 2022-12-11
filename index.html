@@ -53,13 +53,10 @@
               <br/><button type="button" class="btn btn-outline-primar mt-4 mx-2" data-toggle="modal" data-target="#certModal">
                 View certs
               </button>
-              <button type="button" class="btn btn-outline-primar mt-4 mx-2" data-toggle="modal" data-target="#contactModal">
-                <i class="fa-regular fa-comment"></i>
-              </button>
             </section></div>
           </div>
-          <section class="parallax">
-            <div class="container-fluid">
+          <section>
+            <div class="projects">
               <div class=" card mb-5 mx-auto" style="width: 88vw;">
                 <div class="card-body">
                   <h5 class="card-title">Random quotes generator</h5>
@@ -114,6 +111,19 @@
         </div>
       </div>
     </section>
+    <div class="contact" style="height: 80vh;">
+      <form action="https://formspree.io/f/mrgdwnlb" method="post">
+        <div style="margin: auto; padding: 100px;">
+          <label for="email">Your Email
+          <input name="Email" id="email" type="email"></label>
+          <label for="message">Message:
+          <textarea name="message" id="" cols="27" rows="8"></textarea>  
+          </label>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+      </form>
+     
+    </div>
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
@@ -172,49 +182,6 @@
         </div>
 
     <!-- contact modal -->
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="contactModalLabel">Send an email to Shivam</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="row justify-content-center ">
-              <div class="col-lg-8 col-xl-7">
-                  <form id="contactForm" method="post" target="_blank" action="https://forms.un-static.com/forms/e3b99322142d186afe578e19563d9495a7d4b071"> 
-                      <legend><h3 class="text-center">Contact form</h3></legend>
-                      <div class="form-floating mb-2">
-                          <input name="name" class="form-control" id="name" type="text" placeholder="Enter your name..." required />
-                          <label class="label" for="name">Full name</label>
-                          </div>
-                      <div class="form-floating mb-3">
-                          <input required class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                          <label class="label"for="email">Email address</label>
-                      </div>
-                      <div class="form-floating mb-3">
-                          <input name="phone-number" class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" />
-                          <label class="label" for="phone">Phone number</label>
-                      </div>
-                      <div class="form-floating mb-3">
-                          <textarea required class="form-control" name="message" id="message" type="text" placeholder="Enter your message here..." style="height: 6.5rem" data-sb-validations="required"></textarea>
-                          <label class="label" for="message">Message</label>
-                          <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
-                      </div>
-                      <button class="btn-success btn btn-l" id="submitButton" type="submit"> <i class="fa fa-paper-plane"></i> Send</button>
-                      <button class="btn-danger btn " type="reset">reset</button>
-                      </form>
-                </div> 
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-        </div>
   </body>
   </html>
   
