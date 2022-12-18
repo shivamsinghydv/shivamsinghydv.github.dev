@@ -27,16 +27,15 @@ html{
 
 .header{
   box-sizing: border-box;
-  position: relative;
-  width: 100vw;
+  position: fixed;
   height: 115px;
   padding-top: 2em;
   padding-left: 2em;
-
-  background: rgba(255, 255, 255, 0.225);
-  border: 1px solid rgba(255, 255, 255, 0.225);
+  background: rgba(255, 255, 255, 0.775);
+  border: 1px solid rgba(255, 255, 255, 0.89);
   box-shadow: 0px 4px 16px rgba(31, 38, 135, 0.243);
 }
+
 .theme-button{
   position: absolute;
   width: 80px;
@@ -65,49 +64,17 @@ body {
   align-items: center;
   justify-content: center;
 }
-body header img {
-  display: block;
-}
 
-
-#welcome, .masthead{
-  opacity: 0.9;
-  /* background-image:  radial-gradient(#878790 1.35px, transparent 1.35px), radial-gradient(#878790 1.35px, #e5e5f7 1.35px); */
-  /* background-size: 54px 54px; */
-  /* background-position: 0 0,27px 27px; */
-}
 #typewr{
   display:flex; 
   justify-content:center;
   font-size: x-large;
+  margin-bottom: 2.8rem;
 }
 
-.dark .logo{
-  color: var(--bg); 
-}
 
 .hero-img{
   padding-top:4ch;
-}
-.masthead-avatar{
-  background-color: #575757;
-}
-/*
-.card{
-  background-color: #e5e5f7;
-opacity: 0.8;
-background-image: radial-gradient(#444cf7 0.6000000000000001px, #e5e5f7 0.6000000000000001px);
-background-size: 2px 2px;
-}
-*/
-
-.dark a {
-  background-color: rgb(57, 57, 57);
-  color:whitesmoke;
-}
-
-#welcome{
-  height: 95vh;
 }
 
 .switch {
@@ -192,7 +159,7 @@ background-size: 2px 2px;
 }
 body section{
   margin: 2rem 0 2rem 0;; 
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 2rem 2rem 3rem;
 }
 
 .hero-image {
@@ -354,22 +321,30 @@ footer {
   padding-top: 20vh;
 }
 
-#github{
+.social-buttons{
+  background-color: #000000;
+  font-size:xxx-large;
+  margin-bottom: 1.5rem;
+  margin: 0.75rem;
+  color: white;
+}
+.social
+.social-icons:first-child{
   background-color: var(--color);
 }
-#twitter{
+.social-icons #twitter{
   background-color: var(--primary);
 }
-#facebook{
+.social-icons #facebook{
   background-color: #4267B2;
 }
-#instagram{
+.social-icons #instagram{
   background-color: #d62976;
 }
 
-.btn-social{
-  background-color: #000000;
-  font-size:xxx-large;
+div h4{
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
 }
 
 .dark footer {
@@ -444,12 +419,15 @@ a{
   color: inherit;
   text-decoration: none;
 }
-
+#welcome{
+  padding-top: 115px;
+}
 
 .masthead-avatar{
   align-self: center;
-  margin-top: 7.5rem;
+  align-self: center;
   margin-bottom: 2.8rem;
+  margin-top: 3.6rem;
 }
 
 .dark.btn-outline-primar{
@@ -459,7 +437,7 @@ a{
 }
 
 .copyright{
-  background-color: var(--secondary);
+  background-color: #131e3a;
   color: var(--bg);
 }
 
@@ -560,59 +538,35 @@ a{
     opacity: 1;
   }
 }
-
-/* parallax effect */
-/* .parallax {
-  background-image: url("../assets/parallaxbg.jpg");
-  height: '100%';
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 .cert-btn{
-box-sizing: border-box;
-
-/* Auto layout */
 display: flex;
 flex-direction: row;
-align-items: flex-start;
-padding: 7px 22.1562px 6.79688px 22px;
-
 position: absolute;
 width: 150px;
 height: 60px;
-left: calc(50% - 150px/2 - 17px); /*17px was 77px*/
-top: calc(50% - 60px/2 + 267.55px);
-
-background: #5D3A2B;
-border-radius: 20px;
-
-
-/* View certs */
-
-width: 186px;
+padding-left: 17px;
+left: calc(50% - 150px/2 ); /*17px was 77px */
+/* top: calc(50% - 60px/2 + 267.55px); */
+background: var(--primary);
+border-radius: 10px;
+width: 150px;
 height: 42px;
-
 font-family: 'Prompt';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 29px;
-/* or 144% */
 display: flex;
-align-items: center;
 text-align: center;
-
+justify-self: center;
 color: #FFFFFF;
-
-
-/* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
+transition: 1s;
+}
+.cert-btn:hover{
+  transform: scale(1.3);
 }
 .card-ttle{
   top: 1.5em;
@@ -640,25 +594,48 @@ border-radius: 6px;
   left:35px;
   height: 38px;
   background: var(--accent);
-  color: white;
+  color: #131e3a;
   border: 1px solid #6C757D;
   border-radius: 6px;
+  margin-left: 20px;
   }
 
 .cardi {
 box-sizing: border-box;
-height: 210px;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.176);
 border-radius: 20px;
-width: 50%;
-margin: 30px;
 padding-left: 20px;
 padding-top: 20px;
 padding-bottom: 10px;
+padding-right: 20px;
+}
+.dark .cardi{
+  background-color: var(--color);
 }
 
 .card-body{
   width: auto;
   height: 175px;
+}
+
+.projects{
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+
+/* dark mode */
+.dark .header {
+  background-color: var(--color);
+  opacity: 0.5;
+}
+.dark .logo{
+  color: var(--bg); 
+}
+.dark a {
+  background-color: rgb(57, 57, 57);
+  color:whitesmoke;
 }
