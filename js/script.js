@@ -11,9 +11,9 @@ if ('serviceWorker' in navigator){
 }
 
 //typewriter
-var i = 0;
+let i = 0;
 var txt = "I am a web-developer from India.";
-var speed = 18;
+const speed = 18;
       
 function typeWriter() {
   if (i < txt.length) {
