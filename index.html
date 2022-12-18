@@ -101,6 +101,41 @@
         </div>
       </div>
     </section>
+    <section class="contact" id="contact">
+      <div class="row">
+        <h1>contact me</h1>
+    
+        <h4 style="text-align:center">I'd love to hear from you!</h4>
+    </div>
+      <form action="https://formspree.io/f/mrgdwnlb" method="post">
+        <div class="container">
+        <div class="row input-container">
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <input name="name" type="text" required />
+              <label>Name</label> 
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input">
+              <input type="email" name="email" required />
+              <label>Email</label> 
+            </div>
+          </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
+            </div>
+          </div>
+          <!-- your other form fields go here -->
+          <div class="form-btns">
+              <button type="submit" class="btn btn1">Send</button>
+              <button type="reset" onclick="form.reset()" class="btn btn2">Reset</button>
+          </div>
+      </form>
+  </section>
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
@@ -160,21 +195,8 @@
         </div>
 
     <!-- contact modal -->
-    <div class="modal fade" id="#contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
-      <div class="contact" style="height: 80vh;">
-        <form action="https://formspree.io/f/mrgdwnlb" method="post">
-          <div style="margin: auto; padding: 100px;">
-            <label for="email">Your Email
-            <input name="Email" id="email" type="email"></label>
-            <label for="message">Message:
-            <textarea name="message" id="" cols="27" rows="8"></textarea>  
-            </label>
-          <button type="submit" class="btn btn-success">Submit</button>
-        </div>
-        </form>
-       
-      </div>
-    </div>
+    
+      
   </body>
   </html>
   
