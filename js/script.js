@@ -20,15 +20,10 @@ function typeWriter() {
     document.getElementById("typewr").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
- }
+ }console.log('hello')
 }
+
 window.onload = typeWriter();
 
+console.log('hw')
 
-// theme changer
-const switchElement = document.querySelector('.switch')
-      switchElement.addEventListener('click', () => {
-        document.body.classList.toggle('dark')
-      })
-
-//header
