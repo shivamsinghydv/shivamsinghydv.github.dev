@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 8080
+    "liveServer.settings.port": 8080,
+    "editor.fontFamily": "'monospace', monospace"
 }

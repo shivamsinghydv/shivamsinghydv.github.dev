@@ -40,7 +40,7 @@ html{
   padding-top: 2em;
   padding-left: 2em;
   border: 1px solid #0a192f40;
-  box-shadow: 0px 4px 20px #64ffdb37;
+  box-shadow: 0px 4px 20px #ffffff12;
 }
   
 .logo{
@@ -488,6 +488,11 @@ a{
 .card-text{
   color: var(--secondary);
 }
+
+.btn:hover{
+  color: white;
+}
+
 .btn1{
 box-sizing: border-box;
 padding: 6 12;
