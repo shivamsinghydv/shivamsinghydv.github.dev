@@ -25,7 +25,7 @@ if ('serviceWorker' in navigator){
 
 // typewriter
 let i = 0;
-var txt = "I am a student learning SDE.";
+var txt = "I am a student learning SDE and contributing to Open Source along the way.";
 const speed = 18;
       
 function typeWriter() {
