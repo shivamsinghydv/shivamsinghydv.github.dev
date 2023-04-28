@@ -32,6 +32,10 @@ html{
   background: var(--secondary);
 }
 
+#header{
+  background-color: #0a192fde;
+}
+
 .header{
   display: flex;
   box-sizing: border-box;
