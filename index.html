@@ -38,43 +38,74 @@
   </head>
   <body>
         <div id="home">
+
+          <!-- bootstart -->
+          <nav class="navbar navbar-expand-lg float-left navbar-dark bg-dark py-5 pt-4 p-3">
+  <i class="logo ml-5">Shivam</i>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse float-right navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav  mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contributions">Contributions</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- 
           <header id="header" class="header fixed-top ">
           <p class="logo">Shivam.</p>
-        </header></div>
-      <section class="container-fluid masthead text-center justify-content-between">
+        </header></div> -->
+      <section class="container-fluid p-2 masthead text-center justify-content-between">
             <img style="height: 200px;width: 200px;object-fit: cover;border-radius: 50%;" src="assets/ppc.jpeg" class="masthead-avatar" alt="shivam">
-            <div id="typewr"></div>
+            <div class="lead" id="typewr"></div>
       </section>
         
           <section id="projects">
             <div class="projects">
               <div class="cardi" style="width: 88vw;">
                 <div class="card-body">
+                  <p class="card-ttle">LinkFree</p>
+                  <p class="card-text">LinkFree @ Eddiehub <br></p>
+                  <a target="_blank" href="https://github.com/EddieHubCommunity/LinkFree" class="btn btn-outline-light">codebase</a>
+                  <a target="_blank" href="https://linkfree.io" class="btn btn-light">Visit</a>
+                </div>
+              </div>
+              <div class="cardi" style="width: 88vw;">
+                <div class="card-body">
                   <p class="card-ttle">Random quotes generator</p>
                   <p class="card-text">A website that generates random motivational quotes (Python3).<br> <br></p>
-                  <a target="_blank" href="https://github.com/shivamsinghydv/random-quotes" class="btn btn1">codebase</a>
-                  <a target="_blank" href="https://www.random-quotes.cf" class="btn btn2">Demo</a>
+                  <a target="_blank" href="https://github.com/shivamsinghydv/random-quotes" class="btn btn-outline-light">codebase</a>
+                  <a target="_blank" href="https://www.random-quotes.cf" class="btn btn-light">View</a>
                 </div>
               </div>
               <div class="cardi" style="width: 88vw;">
                 <div class="card-body">
                   <p class="card-ttle">Drum Machine</p>
                   <p class="card-text">Imitation of drum kits and percussion intruments (ReactJS).<br> <br></p>
-                  <a target="_blank" href="https://github.com/shivamsinghydv/drum" class="btn btn1">codebase</a>
-                  <a target="_blank" href="https://shivamsinghydv.github.io/drum/" class="btn btn2">Demo</a>
+                  <a target="_blank" href="https://github.com/shivamsinghydv/drum" class="btn btn-outline-light">codebase</a>
+                  <a target="_blank" href="https://shivamsinghydv.github.io/drum/" class="btn btn-light">View</a>
                 </div>
               </div>
               <div class="cardi" style="width: 88vw;">
                 <div class="card-body">
                   <p class="card-ttle">Twitter-header-updater</p>
                   <p class="card-text">A <a target="_blank" href="https://www.python.org/">python3</a> script that refreshes my twitter header at runtime. <br> <br></p>
-                  <a target="_blank" href="https://github.com/shivamsinghydv/twitter-header" class="btn btn1">codebase</a>
+                  <a target="_blank" href="https://github.com/shivamsinghydv/twitter-header" class="btn btn-outline-light">codebase</a>
                 </div>
               </div>
       </div>
     </section>
-    <section class="contact" >
-      <div id="contact" class="row">
+    <section id="contact" class="contact" >
+      <div class="row">
         <h1>contact me</h1>
     
         <h4 style="text-align:center">I'd love to hear from you!</h4>
@@ -103,8 +134,8 @@
           </div>
           <!-- your other form fields go here -->
           <div class="form-btns">
-              <button type="submit" class="btn btn1">Send</button>
-              <button type="reset" onclick="form.reset()" class="btn btn2">Reset</button>
+            <button type="reset" onclick="form.reset()" class="btn btn-outline-warning">Reset</button>
+              <button type="submit" class="btn btn-success">Send</button>
           </div> </div></div>
       </form>
   </section>

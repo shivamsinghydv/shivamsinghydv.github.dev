@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Source+Code+Pro:ital@1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Source+Code+Pro:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 
@@ -48,14 +48,28 @@ html{
 }
   
 .logo{
-  display: inline;
+  /* display: inline; */
+  /* font-family: sacramento, sans-serif; */
+  /* font-size: 3em; */
+  /* font-weight: normal; */
+  /* height: auto; */
+  /* top: 2em; */
   margin-right: 30%;
-  font-family: sacramento, sans-serif;
-  font-size: 3em;
-  font-weight: normal;
   color: var(--color);
-  height: auto;
-  top: 2em;
+  font-family: Righteous;
+  font-size: xx-large;
+  margin-left: 60px;
+}
+@media only screen and (min-width:800px){
+  .logo{
+    margin-right: 50%;
+  }
+}
+
+logo i:hover{
+  transform: scale(1.8);
+  color: white;
+  transition: 0.7s;
 }
 
 body {
@@ -97,18 +111,6 @@ typewr::after {
    /* | hue-rotate(2) | saturate() */
 }
 
-.switch {
-  display: block;
-  width: 80px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: rgb(39, 38, 38);
-  position: relative;
-  margin-right: 10px;
-  margin-top: 0.5rem;
-  float: right;
-  
-}
 
 .main {
   height: 80vh;
@@ -371,7 +373,7 @@ a{
 
 #home{
   height: 100%;
-  padding-top: 115px;
+  /* padding-top: 115px; */
 }
 
 .masthead-avatar{
@@ -493,35 +495,10 @@ a{
   color: var(--secondary);
 }
 
-.btn:hover{
-  color: white;
+.btn{
+  margin-left: 20px;
 }
 
-.btn1{
-box-sizing: border-box;
-padding: 6 12;
-position: relative;
-width: 95.39px;
-left:30px;
-height: 38px;
-background: var(--primary);
-color: #000000;
-border: 1px solid #6C757D;
-border-radius: 6px;
-}
-.btn2{
-  box-sizing: border-box;
-  padding: 6 12;
-  position: relative;
-  width: 95.39px;
-  left:35px;
-  height: 38px;
-  background: var(--secondary);
-  color: #131e3a;
-  border: 1px solid #6C757D;
-  border-radius: 6px;
-  margin-left: 20px;
-  }
 
 .cardi {
 box-sizing: border-box;
@@ -564,8 +541,6 @@ h1 {
   color: var(--secondary);
   line-height: 1.5;
 }
-
-/* ///// inputs /////*/
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
   font-size: 0.75em;
