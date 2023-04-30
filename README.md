@@ -1,3 +1,3 @@
-This is my personal/portfolio website hosted at:
+This is my personal website hosted at:
 
 https://shivamsinghydv.me
